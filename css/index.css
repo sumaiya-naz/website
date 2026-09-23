@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85) 0%,
+            rgba(0, 0, 0, 0.546)0%,
+            rgba(0, 0, 0, 0.475)40%,
+            rgba(0, 0, 0, 0)60%),
+        url("../images/backg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    margin: 0;
+    height: 150vh;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background: rgb(225, 212, 188);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    margin-left: -50px;
+    width: 290px;
+    height: 66px;
+}
+
+nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+nav a {
+    color: #333;
+    background: white;
+    border: 1px solid;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #caa961;
+    color: white;
+    border-color: #c5a561;
+}
+
+.login-btn {
+    background-color: #c4a664;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.login-btn:hover {
+    background-color: #a97d21;
+    cursor: pointer;
+}
+
+.home {
+    height: 100vh;
+    align-items: center;
+
+}
+
+.home-content {
+    margin: 80px;
+    width: 450px;
+    text-align: left;
+    color: #f2d09c;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.home-content i {
+    font-size: 25px;
+}
+
+.home-content p {
+    color: white;
+
+}
+.login-btn {
+    background-color: #c4a664;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.college-stats {
+    display: flex;
+    width: 100%;
+    background: #2d2a23;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.box {
+    text-align: center;
+}
+
+.box i {
+    font-size: 35px;
+    color: #f2d09c;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    font-size: 32px;
+    margin: 5px 0;
+}
+
+.box p {
+    font-size: 18px;
+    color: #d1d5db;
+}
+
+.plcmnt-card {
+    width: 520px;
+    background: rgba(18);
+    border-radius: 15px;
+    border: 2px solid #292bb3;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    color: white;
+    background-color: #141D3A;
+    display: flex;
+    align-items: start;
+    opacity: 80%;
+
+}
+
+.plcmnt-card a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon {
+    color: #f2d09c;
+    font-size: 30px;
+}
+
+.plcmnt-content {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.arrow {
+    border: 1px solid white;
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.arrow:hover {
+    background-color: #f2d09c;
+    border-color: #f2d09c;
+    cursor: pointer;
+}
+.faculty-link,
+.student-link,
+.event-link{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.faculty-link:hover{
+    color: #FFD166;
+}
+.student-link:hover{
+    color: #FFD166;
+}
+.event-link:hover{
+     color: #FFD166;
+}
